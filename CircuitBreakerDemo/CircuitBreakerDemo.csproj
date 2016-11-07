@@ -47,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CircuitBreaker.cs" />
-    <Compile Include="CircuitBreakerSettings.cs" />
-    <Compile Include="ICircuitBreaker.cs" />
-    <Compile Include="ICircuitBreakerSettings.cs" />
+    <Compile Include="CircuitBreaker\CircuitBreaker.cs" />
+    <Compile Include="Configuration\CircuitBreakerSettings.cs" />
+    <Compile Include="CircuitBreaker\ICircuitBreaker.cs" />
+    <Compile Include="Configuration\ICircuitBreakerSettings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,10 +1,12 @@
 using System;
 using System.Threading.Tasks;
 
+using CircuitBreakerDemo.Configuration;
+
 using Polly;
 using Polly.CircuitBreaker;
 
-namespace CircuitBreakerDemo
+namespace CircuitBreakerDemo.CircuitBreaker
 {
     public class CircuitBreaker : ICircuitBreaker
     {

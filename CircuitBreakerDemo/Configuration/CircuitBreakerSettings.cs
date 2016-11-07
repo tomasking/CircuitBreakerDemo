@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CircuitBreakerDemo
+namespace CircuitBreakerDemo.Configuration
 {
     public class CircuitBreakerSettings : ICircuitBreakerSettings
     {

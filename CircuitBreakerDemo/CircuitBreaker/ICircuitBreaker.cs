@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace CircuitBreakerDemo
+namespace CircuitBreakerDemo.CircuitBreaker
 {
     public interface ICircuitBreaker
     {
